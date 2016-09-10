@@ -1,0 +1,45 @@
+*{
+ margin: 0px
+ padding: 0px;
+}
+#container{
+	width: 1024px
+	margin: 0px;
+	padding: 20px;
+}
+.shapes{
+	margin-bottom: 25px
+}
+#square{
+	width: 100px;
+	height: 100px;
+	background:blue;
+}
+ #circle{
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background:blue;
+
+}
+#triangle{
+	width: 0px;
+	height: 0px;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+	border-bottom: 100px solid blue;
+
+}
+#pacman{
+	width: 0px;
+	height: 0px;
+	border-right: 60px solid transparent;
+	border-top: 60px solid blue;
+	border-left: 60px solid blue;
+	border-bottom: 60px solid blue;
+	border-top-left-radius: 60px;
+  border-top-right-radius: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+
+}

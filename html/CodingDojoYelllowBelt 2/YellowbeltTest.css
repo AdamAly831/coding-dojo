@@ -1,0 +1,171 @@
+* {
+	font-family: "Tahoma";
+	margin: 0px;
+	padding: 0px;
+}
+#wrapper{
+	width: 970px;
+	margin: 0px auto;
+
+}
+
+header img, #nav_bar {
+	display: inline-block;
+	overflow: hidden;
+}
+##nav_bar ,form{
+	display: inline-block;
+	overflow: hidden;
+}
+
+ #nav_bar{
+	height: 25px;
+	border-radius: 10px;
+	width: 535px;
+	background: lightgrey;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top: 1px solid grey;
+}
+    	#nav_bar a{
+		text-decoration: none;
+		color: gray;
+		vertical-align: center;
+		margin: 10px 20px 10px 20px;
+	}
+	
+	#nav_bar li{
+		list-style-type: none;
+		display: inline; 
+
+	}
+	#nav_bar li:after{
+		content: "|";
+		font-size: 25px;
+		color: silver;
+	}
+	#nav_bar li:first-child:before{
+
+		font-size: 25px;
+		color: silver;
+	}
+
+
+#main_content{
+	background-color: #f2f2f2;
+	width: 590px;
+	border: 3px;
+	border-radius: 5px;
+}
+
+
+ 
+ #main_content h3,  #main_content button#store{
+ 	display: inline-block;
+	overflow: hidden;
+
+ }
+ #main_content h3{
+ 	 color: lightgrey;
+		padding-top: 10px;
+		padding: 1px 50px 1px 50px;
+		margin-top: 10px;
+		font-weight: normal;	 
+ }
+  #main_content button#store{
+	padding:1px 10px 1px 10px;
+		border-radius: 10px;
+		background-color: #5eade8;
+		color: white;
+		height:50px;
+		width: 200px;
+		border: none;
+		margin-bottom: 5px; 
+  }
+  #mainimage, #main_bar{
+  	display: inline-block;
+  }
+ #main_bar{
+ 	vertical-align: top;
+ 	height: 25px;
+	border-radius: 10px;
+	width: 585px;
+	background: #4e4e4e;
+	margin-top: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	border-top: 1px #4e4e4e;
+ }
+ #main_bar a{
+		text-decoration: none;
+		color: blue;
+		font-size: small;
+		margin: 1px 15px 0px 15px;
+ }
+ #main_bar  li{
+		list-style-type: none;
+		display: inline; 
+		color: #a5c7e4;
+
+	}
+
+#bottom_row{
+	height: 295px;
+	width: 600px
+}
+	.bottom_row_boxes{
+		width: 120px;
+		height: 200px;
+		display: inline-block;
+		vertical-align: top;
+		background: #646363;
+		/*padding: 0px 10px 0px 10px;*/
+		margin-left: 20.5px;
+		margin-top: 10px;
+	}
+	.bottom_row_boxes h3{
+		font-size: 15px;
+	}
+	.bottom_row_boxes p{
+		font-size: 12px;
+		padding:  0px 5px 0px 5px;
+		border: 1px;
+		height: 50px;
+	}
+	
+	 #bottom_row_boxes, button#watch{ 
+		padding:1px 10px 1px 10px;
+		border-radius: 2px;
+		background-color: #5eade8;
+		color: white;
+		width: 100px;
+		border: none;
+		margin-bottom: 5px; 
+	  }
+	   
+	  #bottom img, #bottom h3{
+	  	display: inline-block;
+	  }
+	  
+	  #platform,  #about,  #store,  #support,  #community, #oaktree{
+	  	display: inline-block;
+	  	list-style-type: none;  /*this is suppose to get rid of the bullets but it didnt, why is that? */
+	  	padding:20px 20px 20px 20px;
+	  	font-size: small;
+	  	font-size: 50%;
+ 		height: 50px;
+ 		width: 50px;
+ 		margin-bottom: 10px;
+ 		background-color: white
+	  }
+	 
+	 
+  
+		#footer li{
+		list-style-type: none;
+		text-align: center;
+		display: inline; 
+		font-size: 50%;
+
+		}

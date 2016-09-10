@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>animals</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript">
+
+    $(document).ready(function(){
+    $("img").hover(function(){
+    var temp = $(this).attr("src");
+    $(this).attr("src", $(this).attr("data-alt-src"));
+    $(this).attr("data-alt-src", temp);
+  });
+});
+  </script>
+</head>
+<body>
+  <div id="container">
+    <img src="img/AnimalStack.jpg" data-alt-src="img/Babypanada.jpg">
+    <img src="img/Redpande.jpg" data-alt-src="img/Huskypuppy.jpg">
+    <img src="img/Koala.jpg" data-alt-src="img/Puppoes.jpg">
+  <img src="img/Babypanada.jpg" data-alt-src="img/Redpande.jpg"">
+  </div>
+</body>
+</html>

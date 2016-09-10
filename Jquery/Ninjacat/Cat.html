@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>SwapThemPics</title>
+
+	<script type="text/javascript" src= 'http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'> </script> 
+	 
+	<script type="text/javascript">
+		$(document).ready(function() {
+			// hides the top of kitty when clicked
+
+			$(".ninjatop").hide( );
+			$(".cattop").click(function() {
+			$(this).hide( );
+			$(".ninjatop").show( );
+			});
+
+			$(".ninjatop").click(function(){
+			$(this).hide( );
+			$(".cattop").show( );
+			});
+			 // this is to swap Ninja head  and cat eyes
+			$(".ninjahead").hide( );
+			$(".cateyes").click(function() {
+			$(this).hide( );
+			$(".ninjahead").show( );
+			});
+
+			$(".ninjahead").click(function(){
+			$(this).hide( );
+			$(".cateyes").show( );
+			});
+			 // this is to swap ninjaeyes and catmouth
+			$(".ninjaeyes").hide( );
+			$(".catmouth").click(function() {
+			$(this).hide( );
+			$(".ninjaeyes").show( );
+			});
+
+			$(".ninjaeyes").click(function(){
+			$(this).hide( );
+			$(".catmouth").show( );
+			});
+			 // this is to swap ninjahands and catstummy
+			$(".ninjahand").hide( );
+			$(".cattummy").click(function() {
+			$(this).hide( );
+			$(".ninjahand").show( );
+			});
+
+			$(".ninjahand").click(function(){
+			$(this).hide( );
+			$(".cattummy").show( );
+			});
+			 // this is to swap ninjahands and catstummy
+			$(".ninjafeet").hide( );
+			$(".catmfeet").click(function() {
+			$(this).hide( );
+			$(".ninjafeet").show( );
+			});
+
+			$(".ninjafeet").click(function(){
+			$(this).hide( );
+			$(".catmfeet").show( );
+			});
+		});
+	</script> 
+</head>
+<body>
+ <img class="cattop" src="img/cat0.png" alt="kittyEars" />
+ <img class="ninjatop" src="img/ninja0.png" alt="ninjatop" />
+ <br>
+ <img class="cateyes" src="img/cat1.png" alt="kittyEars" />
+ <img class="ninjahead" src="img/ninja1.png" alt="ninjatop"/>
+  <br>
+ <img class="catmouth" src="img/cat2.png" alt="kittymouth" />
+ <img class="ninjaeyes" src="img/ninja2.png" alt="ninjaeyes"/>
+   <br>
+ <img class="cattummy" src="img/cat3.png" alt="kittytummy" />
+ <img class="ninjahand" src="img/ninja3.png" alt="ninjahands"/>
+   <br>
+ <img class="catmfeet" src="img/cat4.png" alt="kittyfeet" />
+ <img class="ninjafeet" src="img/ninja4.png" alt="ninjafeet"/>
+</body>
+</html>

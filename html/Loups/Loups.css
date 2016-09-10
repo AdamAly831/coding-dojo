@@ -1,0 +1,100 @@
+* {
+	margin: 0px;
+	padding: 0px;	
+}
+
+#container {
+	width: 970px;
+	height: 650px;
+	margin: 0px auto;
+	background-color: #f9f9f9;
+	padding: 10px;
+}
+#main{
+	width: 970px;
+	height: 0px;
+	margin: 0px auto;
+	background-color: red;
+	padding: 10px;
+}
+h1{
+	background-color: #eee;
+	border-radius: 30px;
+	width: 780px;
+	padding: 20px;
+	margin: 5px;
+	font-size: 38px;
+}
+
+#nav, #sitecontent{
+	display: inline-block;
+	margin: 10px;
+}
+
+#nav{
+	background-color: #eee;
+	border-radius: 30px;
+	vertical-align: top;
+	width: 200px;
+	padding: 10px 0px 10px 10px;
+}
+	#nav a{
+	color: blue;
+	text-decoration: none;
+	}
+
+	#nav span{
+		color: #9D1840;
+	}
+
+	#nav h3{
+		font-size: 16px;
+	}
+	
+	#nav ul{
+		margin-left: 20px;
+	}
+	
+	#nav a#visited{
+		color: red;
+	}
+
+#sitecontent{
+	background-color: #bfb8b8;
+	border-radius: 30px;
+	width: 530px;
+	padding: 20px;
+}
+	#sitecontent h2{
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	#sitecontent ul{
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+	
+	#sitecontent li{
+		margin-bottom: 10px;
+	}
+
+	#sitecontent span{
+		color: blue;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	
+	#sitecontent span.non_bold{
+		font-weight: normal;
+	}
+
+#footer{
+	background-color: #dddddd;
+	border-radius: 30px;
+	padding: 20px;
+	margin: 5px;
+	width: 780px;
+}
+
+

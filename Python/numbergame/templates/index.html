@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>numebers game</title>
+	<style>
+		body {
+			text-align: center
+		}
+		div.box{
+			height: 150px;
+			width: 150px;
+			border: 1px solid silver;
+			display: inline-block;
+			vertical-align: top;
+		}
+		.wrong {
+			background-color: red;
+		}
+		.correct{
+			background-color: green;
+		}
+		p{
+			color: grey;
+		}
+
+	</style>
+</head>
+<body>
+	<h1> Welcome to the numbers game</h1>
+	<h3> I am thinking of a number between 1 and 100 </h3>
+	<h3> Take a guess</h3>
+
+	 {% if session['guess'] %}
+		 <!-- <p> session guess is: {{session['rand']}}</p>
+		 <p> session guess is: {{session['guess']}}</p> -->
+		{% if session['guess'] == 'too_low' %}
+			<div class = 'box wrong'>
+			<p> Too low </p>
+			</div>
+		{% elif session['guess'] == 'too_high' %}
+			<div class = 'box wrong'>
+			<p> Too low </p>
+			</div>
+		{% elif session['guess'] == 'correct' %}
+			<div class = 'box correct'>
+			<p> The number was {{session['rand']}} </p>
+				<form action = "/reset" method="post">
+				<input type="submit" value="Play Again!">
+				</form>
+			</div>
+		{% endif %}
+
+	{% endif %}
+
+	{% if session['guess'] != 'correct' %}
+		 
+			 <form action = "/guess" method="POST">
+			 	<input type="text" name="guess"> <br>
+			 	<input type="submit" value="SUBMITE!">
+			 </form>
+	{% endif %}
+		 
+
+</body>
+</html>
