@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+<head>
+    <title>Edit friends</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class='container'>
+         
+        <h3>Edit {{friend['first_name']}} {{friend['last_name']}}'s information</h3>
+            <form action=/friends/{{friend['id']}} method='post'>
+                <table>
+                    <tr>
+                        <td>First Name</td>
+                        <td>Last Name</td>
+                        <td>Occupation</td>
+                    </tr>
+                    <tr>
+                        <td><input type='text' name='first_name' value="{{friend['first_name']}}" ></td>
+                        <td><input type='text' name='last_name' value="{{friend['last_name']}}" ></td>
+                        <td><input type='text' name='occupation' value="{{friend['occupation']}}" ></td>
+                        <td class='edit'><input type='submit' value='Submit'></td>
+                    </tr>
+                </table>
+            </form>
+             
+    </div>
+</body>
+</html>
